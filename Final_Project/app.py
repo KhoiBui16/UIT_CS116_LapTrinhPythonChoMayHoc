@@ -152,16 +152,34 @@ elif page == "Gợi ý sản phẩm":
 
     st.markdown(
         """
-        <style>
-            body {
-                background-color: #f4f4f4;
-                font-family: Arial, sans-serif;
-            }
-            .recommendation-item:hover {
-                background-color: #d0e0ff;
-                transition: 0.2s ease-in-out;
-            }
-        </style>
-        """,
+<style>
+    /* Đổi background màu nhạt */
+    body {
+        background-color: #f5f7fa;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Tùy chỉnh container */
+    .main {
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+    }
+
+    /* Các thẻ gợi ý */
+    .recommendation-item {
+        background-color: #e9ecef;
+        padding: 10px;`
+        border-radius: 5px;
+        margin: 10px 0;
+        transition: 0.3s ease;
+    }
+
+    .recommendation-item:hover {
+        background-color: #d0e0ff;
+    }
+</style>
+""",
         unsafe_allow_html=True,
     )

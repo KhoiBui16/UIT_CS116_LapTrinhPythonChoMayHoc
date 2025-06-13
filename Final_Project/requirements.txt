@@ -1,6 +1,5 @@
-Flask==2.0.3
-pandas==1.3.3
-numpy==1.21.2
-scikit-learn==0.24.2
-jinja2==3.0.1
-IPython
+streamlit>=1.32.0
+streamlit-extras>=0.3.5
+pandas>=2.1.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
